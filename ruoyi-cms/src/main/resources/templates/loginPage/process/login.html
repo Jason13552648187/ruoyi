@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     
-    <title>登录若依系统</title>
-    <meta name="description" content="若依后台管理框架">
+    <title>狼腾社区后台管理系统</title>
+    <meta name="description" content="狼腾后台管理框架">
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html" />
     <![endif]-->
@@ -24,15 +24,15 @@
 <div class="page-con">
     <form name="loginform" id="loginform">
         <input type="hidden" id="redirectUrl" name="redirectUrl" value="${redirectUrl}" >
-        <div><span id="logo-text"><label>Ry<span class="logo-dot rotate"></span></label>-Plus后台管理系统</span></div>
+        <div><span id="logo-text"><label>L.T<span class="logo-dot rotate"></span></label>狼腾社区后台管理</span></div>
 
             <div style="margin-top:25px;position:relative;">
                 <input id="username" name="username" value="admin" class="txt" type="text" placeholder="用户名/邮箱" >
                 <div class="error-tip"></div>
             </div>
             <div class="login-input" style="margin-top:20px;position:relative;">
-                <input name="password" id="password" class="txt" type="password" placeholder="密码" value="admin123" >
-                <a  href="/forget">忘记密码</a>
+                <input name="password" id="password" class="txt" type="password" placeholder="密码" >
+               <!-- <a  href="/forget">忘记密码</a>-->
                 <div class="error-tip"></div>
             </div>
 
@@ -48,10 +48,15 @@
         <div style="margin-top:20px;">
             <span id="signin_btn" onclick="login.login();" class="button">立即登录</span>
         </div>
-        <div class="signup"><a href="/reg">注册</a>  <label for="rememberMe" style="float:right;margin-right: 15px;color:#000;" ><input type="checkbox" id="rememberMe" name="rememberMe" >记住密码</label></div>
+        <div class="signup">
+		<!--<a href="/reg">注册</a>  
+		<label for="rememberMe" style="float:right;margin-right: 15px;color:#000;" >
+		<input type="checkbox" id="rememberMe" name="rememberMe" >记住密码</label>
+		-->
+	</div>
     </form>
     <div style="display:none;margin:20px 24px 0px 24px">
-        <div class="sep"><div style="margin-top:-9px;"><label>第三方账号登录</label></div></div>
+        <!--<div class="sep"><div style="margin-top:-9px;"><label>第三方账号登录</label></div></div>-->
         <div style="position: relative;">
             <span id="weixin_login" onclick="login.paltform.weixin()" class="icons weixin"></span>&nbsp;&nbsp;
             <span onclick="login.paltform.login('qq')" class="icons qq"></span>&nbsp;&nbsp;

@@ -8,9 +8,7 @@
     <artifactId>ruoyi</artifactId>
     <version>4.1.0</version>
 
-    <name>ruoyi</name>
-	<url>http://www.ruoyi.vip</url>
-    <description>若依管理系统</description>
+    <name>lttest</name>
     
     <properties>
 	    <ruoyi.version>4.1.0</ruoyi.version>
@@ -95,7 +93,7 @@
 				<groupId>com.github.theborakompanioni</groupId>
 				<artifactId>thymeleaf-extras-shiro</artifactId>
 				<version>${thymeleaf.extras.shiro.version}</version>
-			</dependency>
+<!-- 			</dependency> -->
 	
 			<!-- 解析客户端操作系统、浏览器等 -->
 			<dependency>

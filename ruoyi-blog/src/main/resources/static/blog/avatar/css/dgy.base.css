@@ -224,7 +224,7 @@ textarea { resize: none; }
 .commonHead .info{ font-size: 13px; color:#999; line-height:14px;}
 
 .commonHeadLabel{ position:relative; margin-bottom:20px; padding-left:15px; font-size:12px; color:#999; height:24px; line-height:24px; overflow:hidden;}
-.commonHeadLabel:before{ content:"#"; position:absolute; left:0; top:0; color:#999; font-size:20px; font-weight:lighter; height:24px; line-height:24px; width:15px;}
+.commonHeadLabel:before{ /*content:"#";*/ position:absolute; left:0; top:0; color:#999; font-size:20px; font-weight:lighter; height:24px; line-height:24px; width:15px;}
 .commonHeadLabel .title{font-size:20px; color:#333; line-height:24px;}
 .commonHeadLabel .info{ margin-left:5px; font-size:12px; color:#999;}
 .commonHeadLabel.small:before{ color:#666;}

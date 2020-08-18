@@ -19,17 +19,8 @@ public class MyApplicationRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments applicationArguments) {
-
-            System.out.println("(♥◠‿◠)ﾉﾞ  若依启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
-                    " .-------.       ____     __        \n" +
-                    " |  _ _   \\      \\   \\   /  /    \n" +
-                    " | ( ' )  |       \\  _. /  '       \n" +
-                    " |(_ o _) /        _( )_ .'         \n" +
-                    " | (_,_).' __  ___(_ o _)'          \n" +
-                    " |  |\\ \\  |  ||   |(_,_)'         \n" +
-                    " |  | \\ `'   /|   `-'  /           \n" +
-                    " |  |  \\    /  \\      /           \n" +
-                    " ''-'   `'-'    `-..-'              ");
+            System.out.println("\n\n\n\n\n\n(♥◠‿◠)ﾉﾞ  狼腾社区启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
+                   "\n\n\n\n\n\n\n");
 
     }
 }

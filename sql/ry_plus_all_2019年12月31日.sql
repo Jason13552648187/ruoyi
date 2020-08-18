@@ -1,17 +1,7 @@
-/*
-Navicat MySQL Data Transfer
+drop database if exists  ry_plus;
 
-Source Server         : localhost
-Source Server Version : 50625
-Source Host           : 127.0.0.1:3306
-Source Database       : ry_plus
-
-Target Server Type    : MYSQL
-Target Server Version : 50625
-File Encoding         : 65001
-
-Date: 2019-12-31 14:31:42
-*/
+create database if not exists  ry_plus;
+use ry_plus;
 
 SET FOREIGN_KEY_CHECKS=0;
 
